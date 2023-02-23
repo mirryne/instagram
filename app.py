@@ -17,6 +17,6 @@ e.send_keys('link2020')
 time.sleep(2)
 e.send_keys(Keys.ENTER)
 
-# 이미지 = driver.find_element(By,)
+이미지 = driver.find_element(By,)
 
-# a = KeyboardInterrupt
+a = KeyboardInterrupt
