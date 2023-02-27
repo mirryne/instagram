@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
  
 
-파일 = open ('rejuran-naver.txt','w')
+파일 = open ('리쥬란힐러.txt','w')
 
 data = requests.get('https://search.naver.com/search.naver?display=15&f=&filetype=0&page=2&query=%EB%A6%AC%EC%A5%AC%EB%9E%80%ED%9E%90%EB%9F%AC&research_url=&sm=tab_pge&start=1&where=web')
  
@@ -11,7 +11,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# 파일 = open ('rejuran-naver.txt','w')
+# 파일 = open ('리쥬란힐러.txt','w')
 
 print(파일.write("2page" + '\n'))
 for i in range(15) :
@@ -24,7 +24,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# 파일 = open ('rejuran-naver.txt','a')
+# 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("3page" + '\n'))
 for i in range(15) :
@@ -56,7 +56,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("4page" + '\n')) 
 for i in range(15) :
@@ -85,7 +85,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("5page" + '\n'))
 for i in range(15) :
@@ -115,7 +115,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("6page" + '\n'))
 for i in range(15) :
@@ -146,7 +146,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("7page" + '\n'))
 for i in range(15) :
@@ -176,7 +176,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("8page" + '\n'))
 for i in range(15) :
@@ -206,7 +206,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("9page" + '\n'))
 for i in range(15) :
@@ -237,7 +237,7 @@ soup = BeautifulSoup(data.text.replace('\\',''),'html.parser')
  
 글리스트 = soup.select('a.link_tit')
 
-# # 파일 = open ('rejuran-naver.txt','a')
+# # 파일 = open ('리쥬란힐러.txt','a')
 
 print(파일.write("10page" + '\n'))
 for i in range(15) :

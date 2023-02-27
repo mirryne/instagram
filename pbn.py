@@ -536,7 +536,7 @@ e.send_keys('linkpsclinic')
 
 time.sleep(1)
 e = driver.find_element(By.NAME, 'pwd')
-e.send_keys('2021Link!!')
+e.send_keys('L2021ink!!')
 
 e = driver.find_element(By.NAME, 'wp-submit').click()
 
@@ -596,7 +596,7 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 # ============================
 
 # pbn9 : ausbell.com
-driver.execute_script("window.open('http://artistsalleydelray.com/wp-admin');")
+driver.execute_script("window.open('http://www.ausbell.com/wp-admin');")
 driver.switch_to.window(driver.window_handles[8])
 
 time.sleep(3)
@@ -612,7 +612,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 # time.sleep(1)
 # e = driver.find_element_by_id('menu-pages').click()
 
-driver.get('http://artistsalleydelray.com/')
+driver.get('http://www.ausbell.com/')
 
 e = driver.find_element_by_link_text('Edit with Elementor').click()
 
