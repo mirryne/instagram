@@ -238,7 +238,7 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 driver.execute_script("window.open('https://guncelbahis.net/wp-admin');")
 driver.switch_to.window(driver.window_handles[8])
 
-time.sleep(3)
+time.sleep(5)
 e = driver.find_element(By.NAME, 'log')
 e.send_keys('linkpsclinic')
 
@@ -322,7 +322,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://www.mizunos.us/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('편집하기').click()
 
 # ============================
 
@@ -398,3 +398,4 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 driver.switch_to_window(driver.window_handles[0])
 # ============================
 
+print()
