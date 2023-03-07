@@ -30,7 +30,7 @@ print(파일.write("3page" + '\n'))
 for i in range(15) :
     #    # print(글리스트[i]['href'] + '\n') 
     print(파일.write(글리스트[i]['href'] + '\n')) 
-    print(파일.write(글리스트[i]['href'] + '\n'))
+
  
 # print("2page" + '\n')
 # print(글리스트[0]['href'] + '\n')
