@@ -1,25 +1,29 @@
-중고차재고 = ['k5','BMW','tico']
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+import time
 
-if 'k4' in 중고차재고 :
-  print('지금주문가능합니다')
+# first brower
+# pbn1 : faithfullylgbt.com 
+driver = webdriver.Chrome('chromedriver.exe')
+driver.get('https://www.faithfullylgbt.com/wp-admin')
 
-else :
-   print('지금주문불가라가능합니다')   
+time.sleep(3)
+e = driver.find_element(By.NAME, 'log')
+e.send_keys('linkpsclinic')
+
+time.sleep(1)
+e = driver.find_element(By.NAME, 'pwd')
+e.send_keys('Link2025!!!')
+
+e = driver.find_element(By.NAME, 'wp-submit').click()
+
+# time.sleep(1)
+# e = driver.find_element_by_id('menu-pages').click()
+
+driver.get('https://www.faithfullylgbt.com/')
 
 
-파일 = open ('a.txt','w')
-파일.write('안녕하세요')
-파일.close()
+e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
-파일 = open ('a.txt','a')
-파일.write('\n반가워')
-파일.close()
-
-
-파일 = open('a.txt','r')
-print(파일.read())
-파일.close()
-
-파일 = open('data.csv','w')
-파일.write('김,이,박')
-파일.close()
+print()

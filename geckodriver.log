@@ -1,0 +1,133 @@
+1679024950943	geckodriver	INFO	Listening on 127.0.0.1:39785
+1679024951315	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "33493" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiledsCgOA"
+Gtk-Message: 12:49:11.338: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1679024951885	Marionette	INFO	Marionette enabled
+1679024951888	Marionette	INFO	Listening on port 42355
+Read port: 42355
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:33493
+1679024952090	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledsCgOA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33493/devtools/browser/c33ca73c-e177-49dc-9e46-9ca024f28249
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1679025020360	Marionette	INFO	Stopped listening on port 42355
+1679025027273	geckodriver	INFO	Listening on 127.0.0.1:40301
+1679025027692	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "41105" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelyWWmC"
+Gtk-Message: 12:50:27.714: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1679025028208	Marionette	INFO	Marionette enabled
+1679025028210	Marionette	INFO	Listening on port 34371
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 34371
+WebDriver BiDi listening on ws://127.0.0.1:41105
+1679025028383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelyWWmC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41105/devtools/browser/604510d3-f716-46c3-befc-2e135c8d5451
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1679025081002	geckodriver	INFO	Listening on 127.0.0.1:46795
+1679025081411	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "60781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilerfVO5E"
+Gtk-Message: 12:51:21.433: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1679025081929	Marionette	INFO	Marionette enabled
+1679025081931	Marionette	INFO	Listening on port 40173
+ATTENTION: default value of option mesa_glthread overridden by environment.
+Read port: 40173
+WebDriver BiDi listening on ws://127.0.0.1:60781
+1679025082073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerfVO5E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60781/devtools/browser/297ee51c-31eb-4232-97dd-6e0553cba62d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default
+1679025142597	geckodriver	INFO	Listening on 127.0.0.1:51247
+1679025143020	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "--remote-debugging-port" "46793" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileX7FYYm"
+Gtk-Message: 12:52:23.042: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1679025143613	Marionette	INFO	Marionette enabled
+1679025143616	Marionette	INFO	Listening on port 33333
+Read port: 33333
+ATTENTION: default value of option mesa_glthread overridden by environment.
+WebDriver BiDi listening on ws://127.0.0.1:46793
+1679025143749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX7FYYm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46793/devtools/browser/f5f4bbbd-759a-46a4-9f49-9ad0ff00b60a
+1679025146215	Marionette	INFO	Stopped listening on port 40173
+1679025147003	Marionette	INFO	Stopped listening on port 34371
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.faithfullylgbt.com."
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.10.1, line 2: ChunkLoadError: Loading chunk 357 failed.
+(error: https://www.faithfullylgbt.com/wp-content/plugins/elementor/assets/js/text-editor.2c35aafbe5bf0e127950.bundle.min.js)
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+ALSA lib conf.c:4120:(snd_config_update_r) Cannot access file /usr/share/alsa/alsa.conf
+ALSA lib seq.c:935:(snd_seq_open_noupdate) Unknown SEQ default

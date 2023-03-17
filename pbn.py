@@ -6,6 +6,7 @@ import time
 # first brower
 # pbn1 : faithfullylgbt.com 
 driver = webdriver.Chrome('chromedriver.exe')
+# driver = webdriver.Firefox()
 driver.get('https://www.faithfullylgbt.com/wp-admin')
 
 time.sleep(3)
@@ -23,8 +24,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://www.faithfullylgbt.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
-
+e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 # ============================
 
 
@@ -35,7 +35,7 @@ driver.execute_script("window.open('https://www.wausanebraska.com/wp-admin');")
 driver.switch_to.window(driver.window_handles[1])
 # driver.get('https://www.wausanebraska.com/wp-admin'""
 
-time.sleep(3)
+time.sleep(5)
 e = driver.find_element(By.NAME, 'log')
 e.send_keys('linkpsclinic')
 
