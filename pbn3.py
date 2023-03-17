@@ -21,7 +21,8 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://www.musicaesmeraldas.org/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # ============================
 
@@ -44,7 +45,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://artikelstrategi.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 
 # ============================
@@ -69,7 +70,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://ashikaga5s.info/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -92,7 +93,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://chokonikki.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -115,7 +116,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://sanmiru.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -138,7 +139,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://www.meyerscustomsupply.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -161,7 +162,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://text-speech.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -184,7 +185,7 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # driver.get('https://girls-liner.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # # ============================
 
@@ -207,7 +208,7 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # driver.get('https://vslexecutivesummary.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -230,7 +231,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://satomoni.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -253,7 +254,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://guncelbahis.net/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -276,7 +277,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://escortistanbull.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -299,7 +300,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://storybookmedia.net/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -346,7 +347,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://shottowerpod.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -369,7 +370,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://www.sxl-online.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -392,7 +393,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://www.bsa-alameda.org/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 driver.switch_to_window(driver.window_handles[0])

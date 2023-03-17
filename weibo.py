@@ -1,50 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from expressvpn import wrapper
-from expressvpn.wrapper import random_connect
-import logging
 import time
 import random
-
-class BannedException(Exception):
-    pass
-
-
-
-def main():
-    while True:
-        try:
-            scrape()
-        except BannedException as be:
-            logging.info('BANNED EXCEPTION in __MAIN__')
-            logging.info(be)
-            logging.info('Lets change our PUBLIC IP GUYS!')
-            change_ip()
-        except Exception as e:
-            logging.error('Exception raised.')
-            logging.error(e)
-
-
-def change_ip():
-    max_attempts = 10
-    attempts = 0
-    while True:
-        attempts += 1
-        try:
-            logging.info('GETTING NEW IP')
-            wrapper.random_connect()
-            logging.info('SUCCESS')
-            return
-        except Exception as e:
-            if attempts > max_attempts:
-                logging.error('Max attempts reached for VPN. Check its configuration.')
-                logging.error('Browse https://github.com/philipperemy/expressvpn-python.')
-                logging.error('Program will exit.')
-                exit(1)
-            logging.error(e)
-            logging.error('Skipping exception.')
-
 
 #Weibo traffic
 
@@ -67,13 +25,13 @@ video = [
 # 조회수(2023/3/2기준) = 443, 279, 183, 128, 107
 
 
-# random_video = random.random(0,4)
+# random_video = random.random(0,7)
 
 for i in range(2) :
     random_connect()
     driver.get('chrome://extensions')
     print("Running the Video for {} time".format(i))
-    random_video = random.randint(0,8)
+    random_video = random.randint(0,7)
     driver.get(video[random_video])
     sleep_time = random.randint(10,20)
     time.sleep(sleep_time)
