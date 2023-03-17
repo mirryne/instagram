@@ -6,8 +6,8 @@ import random
 
 #Weibo traffic
 
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_argument("--incognito")
+chrome_options = webdriver.ChromeOptions()
+chrome_options.add_argument("--incognito")
 
 # driver = webdriver.Chrome(options=chrome_options)
 driver = webdriver.Chrome('chromedriver.exe')
@@ -38,7 +38,7 @@ for i in range(2) :
     driver.delete_all_cookies()
     
 
-driver.quit()
+driver.quit() 
 
 
 # https://www.expressvpn.com/support/vpn-setup/app-for-windows/
