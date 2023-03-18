@@ -6,13 +6,15 @@ import random
 
 #Weibo traffic
 
-chrome_options = webdriver.ChromeOptions()
-chrome_options.add_argument("--incognito")
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_argument("--incognito")
 
 # driver = webdriver.Chrome(options=chrome_options)
 driver = webdriver.Chrome('chromedriver.exe')
 
-video = [
+time.sleep(5)
+
+videos= [
     'https://weibo.com/7757466328/MtTfPvrWp',
     'https://weibo.com/7757466328/MvdfeohpP',
     'https://weibo.com/7757466328/MvcQT224k',
@@ -22,17 +24,13 @@ video = [
     'https://weibo.com/7757466328/MuTBwrJ8M',
     'https://weibo.com/7757466328/MurUzs9zx'
 ]
-# 조회수(2023/3/2기준) = 443, 279, 183, 128, 107
 
 
-# random_video = random.random(0,7)
-
-for i in range(2) :
-    random_connect()
-    driver.get('chrome://extensions')
-    print("Running the Video for {} time".format(i))
+for i in range(50000) :
+    # 블로그나 비디오 리스트 개수를 적는다. 0~비디오개수(-1)
     random_video = random.randint(0,7)
-    driver.get(video[random_video])
+    driver.get(videos[random_video])
+    print("Running the Video for {} time".format(i))
     sleep_time = random.randint(10,20)
     time.sleep(sleep_time)
     driver.delete_all_cookies()
