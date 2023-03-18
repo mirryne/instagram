@@ -48,7 +48,7 @@ while True :
     # 이제부터 마우스를 움직여 클릭할 수 밖에 없다. weibo에는 class나 ID로 특정할 수 없는 elements가 많다. 따라서 pyautogui를 사용한다.
     import pyautogui
 
-    # print(pyautogui.position()) 로 커서의 위치값을 알 수 있다
+    # print(pyautogui.position()) 로 커서의 위치값을 알 수 있다.
     pyautogui.moveTo(x=335,y=611)
     pyautogui.click()
 
