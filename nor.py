@@ -30,4 +30,3 @@ ip = requests.get("https://api.ipify.org").text
 print(f"IP체인지\nIP:\t{ip}")
 
 nordvpn()
-
