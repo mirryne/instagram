@@ -53,6 +53,6 @@ while True :
     pyautogui.click()
 
     time.sleep(4)
-    driver.delete_all_cookies()
+    
 
     # 무한반복은 While True : 로 감싸면 된다. 여기까지 끝
