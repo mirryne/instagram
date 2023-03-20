@@ -12,8 +12,6 @@ while True :
     chrome_options = Options()
     chrome_options.add_argument('incognito')
     driver = webdriver.Chrome(options=chrome_options)
-  
-    # driver = webdriver.Chrome('chromedriver.exe')
     driver.set_window_size(400,664)
 
     time.sleep(5)
@@ -25,7 +23,7 @@ while True :
          ]
 
 
-    for i in range(50000) :
+    for i in range(1000000) :
         # 블로그나 비디오 리스트 개수를 적는다. 0~비디오개수(-1)
         random_video = random.randint(0,2)
         driver.get(videos[random_video])
