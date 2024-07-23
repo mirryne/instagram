@@ -1,11 +1,13 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
 # first brower
 # pbn1 : faithfullylgbt.com 
-driver = webdriver.Chrome('chromedriver.exe')
+# driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome(ChromeDriverManager().install())
 # driver = webdriver.Firefox()
 driver.get('https://www.faithfullylgbt.com/wp-admin')
 
@@ -268,7 +270,7 @@ e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 driver.execute_script("window.open('http://kamagra-online24.com/wp-admin');")
 driver.switch_to.window(driver.window_handles[11])
 
-time.sleep(5)
+time.sleep(10)
 e = driver.find_element(By.NAME, 'log')
 e.send_keys('linkpsclinic')
 
@@ -287,32 +289,32 @@ e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # ============================
 
-# pbn13 : 179xizang.com
-driver.execute_script("window.open('http://www.179xizang.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[12])
+# # pbn13 : 179xizang.com
+# driver.execute_script("window.open('http://www.179xizang.com/wp-admin');")
+# driver.switch_to.window(driver.window_handles[12])
 
-time.sleep(5)
-e = driver.find_element(By.NAME, 'log')
-e.send_keys('linkpsclinic')
-
-time.sleep(1)
-e = driver.find_element(By.NAME, 'pwd')
-e.send_keys('Link2021!')
-
-e = driver.find_element(By.NAME, 'wp-submit').click()
+# time.sleep(5)
+# e = driver.find_element(By.NAME, 'log')
+# e.send_keys('linkpsclinic')
 
 # time.sleep(1)
-# e = driver.find_element_by_id('menu-pages').click()
+# e = driver.find_element(By.NAME, 'pwd')
+# e.send_keys('Link2021!')
 
-driver.get('http://www.179xizang.com/')
+# e = driver.find_element(By.NAME, 'wp-submit').click()
 
-e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
+# # time.sleep(1)
+# # e = driver.find_element_by_id('menu-pages').click()
+
+# driver.get('http://www.179xizang.com/')
+
+# e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # ============================
 
 # pbn14 : elitbodrum.com
 driver.execute_script("window.open('https://www.elitbodrum.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[13])
+driver.switch_to.window(driver.window_handles[12])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -335,7 +337,7 @@ e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # pbn15 : mujer-nueva.com
 driver.execute_script("window.open('http://www.mujer-nueva.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[14])
+driver.switch_to.window(driver.window_handles[13])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -358,7 +360,7 @@ e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # pbn16 : whcp71.com
 driver.execute_script("window.open('http://whcp71.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[15])
+driver.switch_to.window(driver.window_handles[14])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -381,7 +383,7 @@ e = driver.find_element(By.LINK_TEXT,'Edit with Elementor').click()
 
 # pbn17 : cinematicmod.com
 driver.execute_script("window.open('https://cinematicmod.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[16])
+driver.switch_to.window(driver.window_handles[15])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')

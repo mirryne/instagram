@@ -1,9 +1,12 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
-driver = webdriver.Chrome('chromedriver.exe')
+
+# driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('https://www.musicaesmeraldas.org/wp-admin')
 
 time.sleep(3)
@@ -45,7 +48,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://artikelstrategi.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 
 # ============================
@@ -70,7 +73,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://ashikaga5s.info/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -93,7 +96,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://chokonikki.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -116,7 +119,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://sanmiru.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -139,30 +142,30 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://www.meyerscustomsupply.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
-# pbn7 : text-speech.com
-driver.execute_script("window.open('https://text-speech.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[6])
+# # pbn7 : text-speech.com
+# driver.execute_script("window.open('https://text-speech.com/wp-admin');")
+# driver.switch_to.window(driver.window_handles[6])
 
-time.sleep(5)
-e = driver.find_element(By.NAME, 'log')
-e.send_keys('linkpsclinic')
-
-time.sleep(1)
-e = driver.find_element(By.NAME, 'pwd')
-e.send_keys('Link2022!!!')
-
-e = driver.find_element(By.NAME, 'wp-submit').click()
+# time.sleep(5)
+# e = driver.find_element(By.NAME, 'log')
+# e.send_keys('linkpsclinic')
 
 # time.sleep(1)
-# e = driver.find_element_by_id('menu-pages').click()
+# e = driver.find_element(By.NAME, 'pwd')
+# e.send_keys('Link2022!!!')
 
-driver.get('https://text-speech.com/')
+# e = driver.find_element(By.NAME, 'wp-submit').click()
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+# # time.sleep(1)
+# # e = driver.find_element_by_id('menu-pages').click()
+
+# driver.get('https://text-speech.com/')
+
+# # e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
@@ -185,7 +188,7 @@ driver.get('https://text-speech.com/')
 
 # driver.get('https://girls-liner.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # # ============================
 
@@ -208,15 +211,15 @@ e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # driver.get('https://vslexecutivesummary.com/')
 
-e = driver.find_element_by_link_text('Edit with Elementor').click()
+# e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn10 : satomoni.com
 driver.execute_script("window.open('http://satomoni.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[7])
+driver.switch_to.window(driver.window_handles[6])
 
-time.sleep(3)
+time.sleep(10)
 e = driver.find_element(By.NAME, 'log')
 e.send_keys('linkpsclinic@gmail.com')
 
@@ -231,13 +234,13 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://satomoni.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn11 : guncelbahis.net
 driver.execute_script("window.open('https://guncelbahis.net/wp-admin');")
-driver.switch_to.window(driver.window_handles[8])
+driver.switch_to.window(driver.window_handles[7])
 
 time.sleep(5)
 e = driver.find_element(By.NAME, 'log')
@@ -254,13 +257,13 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://guncelbahis.net/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn12 : escortistanbull.com
 driver.execute_script("window.open('https://escortistanbull.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[9])
+driver.switch_to.window(driver.window_handles[8])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -277,13 +280,13 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('https://escortistanbull.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn13 : storybookmedia.net
 driver.execute_script("window.open('http://storybookmedia.net/wp-admin');")
-driver.switch_to.window(driver.window_handles[10])
+driver.switch_to.window(driver.window_handles[9])
 
 time.sleep(5)
 e = driver.find_element(By.NAME, 'log')
@@ -300,37 +303,37 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://storybookmedia.net/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
-# pbn14 : mizunos.us
-driver.execute_script("window.open('http://www.mizunos.us/wp-admin');")
-driver.switch_to.window(driver.window_handles[11])
+# # pbn14 : mizunos.us
+# driver.execute_script("window.open('http://www.mizunos.us/wp-admin');")
+# driver.switch_to.window(driver.window_handles[10])
 
-time.sleep(3)
-e = driver.find_element(By.NAME, 'log')
-e.send_keys('linkps2807')
-
-time.sleep(1)
-e = driver.find_element(By.NAME, 'pwd')
-e.send_keys('Link2021!!')
-
-e = driver.find_element(By.NAME, 'wp-submit').click()
+# time.sleep(3)
+# e = driver.find_element(By.NAME, 'log')
+# e.send_keys('linkps2807')
 
 # time.sleep(1)
-# e = driver.find_element_by_id('menu-pages').click()
+# e = driver.find_element(By.NAME, 'pwd')
+# e.send_keys('Link2021!!')
 
-driver.get('http://www.mizunos.us/')
+# e = driver.find_element(By.NAME, 'wp-submit').click()
 
-e = driver.find_element_by_link_text('편집하기').click()
+# # time.sleep(1)
+# # e = driver.find_element_by_id('menu-pages').click()
+
+# driver.get('http://www.mizunos.us/')
+
+# e = driver.find_element_by_link_text('편집하기').click()
 
 # ============================
 
 
 # pbn15 : shottowerpod.com
 driver.execute_script("window.open('http://shottowerpod.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[12])
+driver.switch_to.window(driver.window_handles[10])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -347,13 +350,13 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://shottowerpod.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn16 : sxl-online.com
 driver.execute_script("window.open('http://www.sxl-online.com/wp-admin');")
-driver.switch_to.window(driver.window_handles[13])
+driver.switch_to.window(driver.window_handles[11])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -370,13 +373,13 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://www.sxl-online.com/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 
 # pbn17 : bsa-alameda.org
 driver.execute_script("window.open('http://www.bsa-alameda.org/wp-admin');")
-driver.switch_to.window(driver.window_handles[14])
+driver.switch_to.window(driver.window_handles[12])
 
 time.sleep(3)
 e = driver.find_element(By.NAME, 'log')
@@ -393,7 +396,7 @@ e = driver.find_element(By.NAME, 'wp-submit').click()
 
 driver.get('http://www.bsa-alameda.org/')
 
-# e = driver.find_element_by_link_text('Edit with Elementor').click()
+e = driver.find_element_by_link_text('Edit with Elementor').click()
 
 # ============================
 driver.switch_to_window(driver.window_handles[0])

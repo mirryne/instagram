@@ -1,12 +1,13 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 
 
 
-
-driver = webdriver.Chrome('chromedriver.exe')
+# driver = webdriver.Chrome('chromedriver.exe')
+driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get('http://www.brasserieartisanalearlesienne.com/wp-admin')
 
 time.sleep(3)
